@@ -1,0 +1,79 @@
+*{
+    font-family: monospace;
+  }
+  
+  html { 
+    height: 100%;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;}
+    
+    body {
+    width: 220px;  
+    max-width: 220px;
+    min-width: 220px;  
+    font-size: 30px;
+    padding: 6%;   
+    border-style: ridge;
+    border-color: green;
+    border-width:30px;
+    border-radius:40px; 
+    background: #006600;
+  }
+  
+  label {
+    display:block;
+    height: 1;  
+    position: relative;
+    z-index: 999; 
+    font-size: .6em;
+    line-height: 1;
+    color:white;
+  
+  }
+  button {    
+      display: block;
+      background-color: #e7e9f1;
+      color: black;
+      background-size: 50px;   
+      width: 200px;
+      height: 100px;
+      font-size: 15px;
+      border-box: 50%;
+      text-align: center;
+      text-indent: 1px;    
+      margin:5px;
+      border-radius:10px;
+      border:groove;
+  }
+  
+  div {
+      display:block;
+      background-image:                     url(https://upload.wikimedia.org/wikipedia/commons/d/df/Facebook_logo_thumbs_up_like_transparent_SVG.svg);
+      background-repeat:no-repeat;
+      background-position: 75px 65%;
+      background-color: #e7e9f1;
+      color: black;
+      background-size: 50px;
+      width: 195px;
+      height: 100px;
+      font-size: 15px;
+      border-box: 50%;
+      text-align: center;
+      text-indent: 1px;
+      margin:5px;
+      border-radius:10px;
+      border:groove;
+    
+     
+  }
+  input{
+    width:195px;
+    height:20px;
+    margin:5px;
+    border-radius:5px;
+    
+  }
+  
